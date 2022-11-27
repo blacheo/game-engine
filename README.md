@@ -1,5 +1,7 @@
 # Game Engine (In Progress)
 
+A 3D game engine for FPS games
+
 ## Some Resources about Game Engine Design
 
 https://pikuma.com/blog/how-to-make-your-own-cpp-game-engine
