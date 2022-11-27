@@ -1,5 +1,9 @@
 # Game Engine (In Progress)
 
+## Some Resources about Game Engine Design
+
+https://pikuma.com/blog/how-to-make-your-own-cpp-game-engine
+
 ## Technologies/Design Decisions used in this project
 
 ### Language: C++
