@@ -30,7 +30,7 @@ https://en.wikipedia.org/wiki/Entity_component_system
 
 ### Physics Engine Overview
 
-A scene contains models
+A scene contains models. Models contain a mesh
 
 ### Physics Engine Features
 
