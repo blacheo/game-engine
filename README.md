@@ -10,6 +10,10 @@ https://pikuma.com/blog/how-to-make-your-own-cpp-game-engine
 
 ### Language: C++
 
+## Game Loop
+
+https://gameprogrammingpatterns.com/game-loop.html
+
 ### Graphics API: Vulcan (Can be changed)
 
 #### Reasoning
@@ -39,3 +43,7 @@ A scene contains models. Models contain a mesh
 Object Pool
 
 #### Ragdolls
+
+### Coding Style
+
+All of our headers should start with a prefix
