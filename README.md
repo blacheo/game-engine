@@ -16,6 +16,8 @@ https://gameprogrammingpatterns.com/game-loop.html
 
 ### Graphics API: Vulcan (Can be changed)
 
+https://vulkan-tutorial.com/
+
 #### Reasoning
 
 Vulcan is cross-platform
