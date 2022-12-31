@@ -15,6 +15,7 @@ int main(void) {
 	if (!glfwInit())
 	{
 		error_callback(1, "Error: Initialization Failed");
+		glfwTerminate();
 		exit(1);
 	}
 
@@ -24,6 +25,8 @@ int main(void) {
 	if (!window)
 	{
 		error_callback(1, "Error: Window or Context Creation Failed");
+		glfwTerminate();
+		exit(2);
 	}
 	// Set Current OpenGL context to use OpenGL API
 	glfwMakeContextCurrent(window);
@@ -34,11 +37,11 @@ int main(void) {
 	// While window is open
 	while (!glfwWindowShouldClose(window))
 	{
+		glfwSwapBuffers(window);
+
+		glfwPollEvents();
 		
 	}
-
-	// Destroy window
-	glfwDestroyWindow(window);
 
 	// Terminate GLFW before application exits
 	glfwTerminate();
