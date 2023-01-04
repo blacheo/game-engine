@@ -1,0 +1,10 @@
+^D:\GAME DEV\3RD PARTY ASSETS\GLFW\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-SD:/Game Dev/3rd Party Assets/glfw" "-BD:/Game Dev/3rd Party Assets/glfw-build" --check-stamp-file "D:/Game Dev/3rd Party Assets/glfw-build/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
